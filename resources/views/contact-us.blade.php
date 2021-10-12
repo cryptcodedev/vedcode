@@ -9,7 +9,7 @@
             <div class="col-12">
                 <ul class="bread-crumbs-list">
                     <li>
-                        <a href="index.html">Home</a>
+                        <a href="{{url('/')}}">Home</a>
                         <i class="material-icons md-18">chevron_right</i>
                     </li>
                     <li><a href="contact-us.html#!">Contact Us</a></li>
