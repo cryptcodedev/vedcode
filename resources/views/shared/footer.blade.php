@@ -7,7 +7,7 @@
                             <!-- Begin company info -->
                             <div class="footer-company-info">
                                 <div class="footer-company-top">
-                                    <a href="index.html" class="logo logo-ico-widht-text" title="PathSoft">
+                                    <a href="{{url('/')}}" class="logo logo-ico-widht-text" title="PathSoft">
                                         <img class="lazy logo-ico" data-src="assets/img/logo-ico.png" width="36" height="35" src="data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" alt="">
                                         <span class="logo-text">PathSoft</span>
                                     </a>
@@ -17,28 +17,28 @@
                                 </div>
                                 <ul class="footer-social-links">
                                     <li>
-                                        <a href="index.html#!" title="Facebook">
+                                        <a href="{{url('/')}}" title="Facebook">
                                             <svg viewBox="0 0 320 512">
                                                 <use xlink:href="assets/img/sprite.svg#facebook-ico"></use>
                                             </svg>
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="index.html#!" title="Instagram">
+                                        <a href="{{url('/')}}" title="Instagram">
                                             <svg viewBox="0 0 448 512">
                                                 <use xlink:href="assets/img/sprite.svg#instagram-ico"></use>
                                             </svg>
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="index.html#!" title="LinkedIn">
+                                        <a href="{{url('/')}}" title="LinkedIn">
                                             <svg viewBox="0 0 448 512">
                                                 <use xlink:href="assets/img/sprite.svg#linkedin-in-ico"></use>
                                             </svg>
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="index.html#!" title="Twitter">
+                                        <a href="{{url('/')}}" title="Twitter">
                                             <svg viewBox="0 0 512 512">
                                                 <use xlink:href="assets/img/sprite.svg#twitter-ico"></use>
                                             </svg>
@@ -87,7 +87,7 @@
                                     <li>
                                         <i class="material-icons md-22 footer-contact-tel">smartphone</i>
                                         <div class="footer-contact-info">
-                                            <a href="index.html#!" class="formingHrefTel">+1 323-913-4688</a>, <a href="index.html#!" class="formingHrefTel">+1 323-888-4554</a>
+                                            <a href="{{url('/')}}" class="formingHrefTel">+1 323-913-4688</a>, <a href="{{url('/')}}" class="formingHrefTel">+1 323-888-4554</a>
                                         </div>
                                     </li>
                                     <li>
@@ -100,7 +100,7 @@
                             </div>
                             <div class="footer-item">
                                 <h4 class="footer-item-title">Subscribe</h4>
-                                <form action="#!" method="post" class="footer-subscribe">
+                                <form action="" method="post" class="footer-subscribe">
                                     <div class="form-field">
                                         <label for="subscribe-email" class="form-field-label">Your email</label>
                                         <input type="email" class="form-field-input" name="Subscribe_email" value="" autocomplete="off" required="required" id="subscribe-email">
