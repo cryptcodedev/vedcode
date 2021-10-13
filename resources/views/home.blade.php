@@ -14,13 +14,13 @@
                                 <p class="section-desc">The template you will be able to create a site for your business. The template has many different blocks from which you can create your own unique site.</p>
                             </div>
                             <div class="wrap-btn intro-btns">
-                                <a href="ui.html" class="btn btn-with-icon btn-small ripple">
-                                    <span>UI elements</span>
+                                <a href="{{url('about-us')}}" class="btn btn-with-icon btn-small ripple">
+                                    <span>About Us</span>
                                     <svg class="btn-icon-right" viewBox="0 0 13 9" width="13" height="9">
                                         <use xlink:href="{{asset('assets/img/sprite.svg#arrow-right')}}"></use>
                                     </svg>
                                 </a>
-                                <a href="contact-us.html" class="btn btn-with-icon btn-border btn-small ripple">
+                                <a href="{{url('contact-us')}}" class="btn btn-with-icon btn-border btn-small ripple">
                                     <span>Get in Touch</span>
                                     <svg class="btn-icon-right" viewBox="0 0 13 9" width="13" height="9">
                                         <use xlink:href="{{asset('assets/img/sprite.svg#arrow-right')}}"></use>
@@ -42,16 +42,16 @@
                                 <p class="section-desc">Since our establishment, we have been delivering high-quality and sustainable software solutions for corporate business purposes.</p>
                             </div>
                             <div class="wrap-btn intro-btns">
-                                <a href="ui.html" class="btn btn-with-icon btn-small ripple">
-                                    <span>UI elements</span>
+                                <a href="{{url('about-us')}}" class="btn btn-with-icon btn-small ripple">
+                                    <span>About Us</span>
                                     <svg class="btn-icon-right" viewBox="0 0 13 9" width="13" height="9">
-                                        <use xlink:href="assets/img/sprite.svg#arrow-right"></use>
+                                        <use xlink:href="{{asset('assets/img/sprite.svg#arrow-right')}}"></use>
                                     </svg>
                                 </a>
-                                <a href="contact-us.html" class="btn btn-with-icon btn-border btn-small ripple">
+                                <a href="{{url('contact-us')}}" class="btn btn-with-icon btn-border btn-small ripple">
                                     <span>Get in Touch</span>
                                     <svg class="btn-icon-right" viewBox="0 0 13 9" width="13" height="9">
-                                        <use xlink:href="assets/img/sprite.svg#arrow-right"></use>
+                                        <use xlink:href="{{asset('assets/img/sprite.svg#arrow-right')}}"></use>
                                     </svg>
                                 </a>
                             </div>
@@ -70,16 +70,16 @@
                                 <p class="section-desc">The template you will be able to create a site for your business. The template has many different blocks from which you can create your own unique site.</p>
                             </div>
                             <div class="wrap-btn intro-btns">
-                                <a href="ui.html" class="btn btn-with-icon btn-small ripple">
-                                    <span>UI elements</span>
+                                <a href="{{url('about-us')}}" class="btn btn-with-icon btn-small ripple">
+                                    <span>About Us</span>
                                     <svg class="btn-icon-right" viewBox="0 0 13 9" width="13" height="9">
-                                        <use xlink:href="assets/img/sprite.svg#arrow-right"></use>
+                                        <use xlink:href="{{asset('assets/img/sprite.svg#arrow-right')}}"></use>
                                     </svg>
                                 </a>
-                                <a href="contact-us.html" class="btn btn-with-icon btn-border btn-small ripple">
+                                <a href="{{url('contact-us')}}" class="btn btn-with-icon btn-border btn-small ripple">
                                     <span>Get in Touch</span>
                                     <svg class="btn-icon-right" viewBox="0 0 13 9" width="13" height="9">
-                                        <use xlink:href="assets/img/sprite.svg#arrow-right"></use>
+                                        <use xlink:href="{{asset('assets/img/sprite.svg#arrow-right')}}"></use>
                                     </svg>
                                 </a>
                             </div>
@@ -97,13 +97,13 @@
         <div class="row">
             <div class="col-12">
                 <div class="section-heading heading-center">
-                    <div class="section-subheading">Areas what we serv</div>
+                    <div class="section-subheading">Areas what we serve</div>
                     <h2>Our Services</h2>
                 </div>
             </div>
             <div class="col-lg-4 col-md-6 col-12 item">
                 <!-- Begin services item -->
-                <a href="single-services.html" class="services-item item-style">
+                <a href="{{url('single-services')}}" class="services-item item-style">
                     <div class="services-item-ico">
                         <i class="material-icons material-icons-outlined md-48">settings</i>
                     </div>
@@ -116,7 +116,7 @@
             </div>
             <div class="col-lg-4 col-md-6 col-12 item">
                 <!-- Begin services item -->
-                <a href="single-services.html" class="services-item item-style">
+                <a href="{{url('single-services')}}" class="services-item item-style">
                     <div class="services-item-ico">
                         <i class="material-icons material-icons-outlined md-48">perm_phone_msg</i>
                     </div>
@@ -129,7 +129,7 @@
             </div>
             <div class="col-lg-4 col-md-12 col-12 item">
                 <!-- Begin services item -->
-                <a href="single-services.html" class="services-item item-style">
+                <a href="{{url('single-services')}}" class="services-item item-style">
                     <div class="services-item-ico">
                         <i class="material-icons material-icons-outlined md-48">cloud_download</i>
                     </div>
@@ -275,187 +275,10 @@
     </div>
 </section><!-- End counter section -->
 
-<!-- Begin latest projects -->
+<!-- Begin team -->
 <section class="section section-projects section-overflow-hidden section-bg">
     <div class="container">
         <div class="row">
-            <div class="col-12">
-                <div class="section-heading heading-center">
-                    <div class="section-subheading">Our works</div>
-                    <h2>Latest Projects</h2>
-                </div>
-            </div>
-            <div class="col-12">
-                <div class="section-nav">
-                    <ul class="section-nav-list project-nav-list">
-                        <li class="hover-link active" data-filter="*" data-title="All"><span>All</span></li>
-                        <li class="hover-link" data-filter=".project-mobile-apps" data-title="MOBILE APPS"><span>MOBILE APPS</span></li>
-                        <li class="hover-link" data-filter=".project-custom-software" data-title="CUSTOM SOFTWARE"><span>CUSTOM SOFTWARE</span></li>
-                        <li class="hover-link" data-filter=".project-qa-testing" data-title="QA & TESTING"><span>QA & TESTING</span></li>
-                        <li class="hover-link" data-filter=".project-ux-design" data-title="UX AND DESIGN"><span>UX AND DESIGN</span></li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-        <div class="row" id="projects-container">
-            <div class="col-lg-4 col-md-6 col-sm-6 col-12 item project-col project-ux-design">
-                <!-- Begin project item -->
-                <div class="project-item">
-                    <div class="project-item-card project-item-card-front">
-                        <img data-src="assets/img/project-img-1.jpg" class="lazy" src="data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" alt="">
-                    </div>
-                    <div class="project-item-card project-item-card-back">
-                        <div class="project-item-card-center">
-                            <h5 class="project-item-title">MPlanner</h5>
-                            <div class="project-item-desc">
-                                <p>We work hard on every app to deliver top-notch features with great UI that you won’t find anywhere else.</p>
-                            </div>
-                            <div class="wrapp-btn-circl-arrow justify-content-center">
-                                <a href="single-project.html" class="btn-circl-arrow btn-circl-arrow-white">
-                                    <svg viewBox="0 0 13 9" width="13" height="9" width="13px" height="9px">
-                                        <use xlink:href="assets/img/sprite.svg#arrow-right"></use>
-                                    </svg>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div><!-- End project item -->
-            </div>
-            <div class="col-lg-4 col-md-6 col-sm-6 col-12 item project-col">
-                <!-- Begin project item -->
-                <div class="project-item">
-                    <div class="project-item-card project-item-card-front">
-                        <img data-src="assets/img/project-img-2.jpg" class="lazy" src="data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" alt="">
-                    </div>
-                    <div class="project-item-card project-item-card-back">
-                        <div class="project-item-card-center">
-                            <h5 class="project-item-title">WeatherNow</h5>
-                            <div class="project-item-desc">
-                                <p>We work hard on every app to deliver top-notch features with great UI that you won’t find anywhere else.</p>
-                            </div>
-                            <div class="wrapp-btn-circl-arrow justify-content-center">
-                                <a href="single-project.html" class="btn-circl-arrow btn-circl-arrow-white">
-                                    <svg viewBox="0 0 13 9" width="13" height="9" width="13px" height="9px">
-                                        <use xlink:href="assets/img/sprite.svg#arrow-right"></use>
-                                    </svg>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div><!-- End project item -->
-            </div>
-            <div class="col-lg-4 col-md-6 col-sm-6 col-12 item project-col project-custom-software project-qa-testing">
-                <!-- Begin project item -->
-                <div class="project-item">
-                    <div class="project-item-card project-item-card-front">
-                        <img data-src="assets/img/project-img-3.jpg" class="lazy" src="data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" alt="">
-                    </div>
-                    <div class="project-item-card project-item-card-back">
-                        <div class="project-item-card-center">
-                            <h5 class="project-item-title">Langer Messenger</h5>
-                            <div class="project-item-desc">
-                                <p>We work hard on every app to deliver top-notch features with great UI that you won’t find anywhere else.</p>
-                            </div>
-                            <div class="wrapp-btn-circl-arrow justify-content-center">
-                                <a href="single-project.html" class="btn-circl-arrow btn-circl-arrow-white">
-                                    <svg viewBox="0 0 13 9" width="13" height="9" width="13px" height="9px">
-                                        <use xlink:href="assets/img/sprite.svg#arrow-right"></use>
-                                    </svg>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div><!-- End project item -->
-            </div>
-            <div class="col-lg-4 col-md-6 col-sm-6 col-12 item project-col project-mobile-apps">
-                <!-- Begin project item -->
-                <div class="project-item">
-                    <div class="project-item-card project-item-card-front">
-                        <img data-src="assets/img/project-img-4.jpg" class="lazy" src="data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" alt="">
-                    </div>
-                    <div class="project-item-card project-item-card-back">
-                        <div class="project-item-card-center">
-                            <h5 class="project-item-title">Mobile Finance</h5>
-                            <div class="project-item-desc">
-                                <p>We work hard on every app to deliver top-notch features with great UI that you won’t find anywhere else.</p>
-                            </div>
-                            <div class="wrapp-btn-circl-arrow justify-content-center">
-                                <a href="single-project.html" class="btn-circl-arrow btn-circl-arrow-white">
-                                    <svg viewBox="0 0 13 9" width="13" height="9" width="13px" height="9px">
-                                        <use xlink:href="assets/img/sprite.svg#arrow-right"></use>
-                                    </svg>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div><!-- End project item -->
-            </div>
-            <div class="col-lg-4 col-md-6 col-sm-6 col-12 item project-col project-qa-testing">
-                <!-- Begin project item -->
-                <div class="project-item">
-                    <div class="project-item-card project-item-card-front">
-                        <img data-src="assets/img/project-img-5.jpg" class="lazy" src="data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" alt="">
-                    </div>
-                    <div class="project-item-card project-item-card-back">
-                        <div class="project-item-card-center">
-                            <h5 class="project-item-title">RaptCash</h5>
-                            <div class="project-item-desc">
-                                <p>We work hard on every app to deliver top-notch features with great UI that you won’t find anywhere else.</p>
-                            </div>
-                            <div class="wrapp-btn-circl-arrow justify-content-center">
-                                <a href="single-project.html" class="btn-circl-arrow btn-circl-arrow-white">
-                                    <svg viewBox="0 0 13 9" width="13" height="9" width="13px" height="9px">
-                                        <use xlink:href="assets/img/sprite.svg#arrow-right"></use>
-                                    </svg>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div><!-- End project item -->
-            </div>
-            <div class="col-lg-4 col-md-6 col-sm-6 col-12 item project-col project-mobile-apps project-ux-design project-qa-testing">
-                <!-- Begin project item -->
-                <div class="project-item">
-                    <div class="project-item-card project-item-card-front">
-                        <img data-src="assets/img/project-img-6.jpg" class="lazy" src="data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" alt="">
-                    </div>
-                    <div class="project-item-card project-item-card-back">
-                        <div class="project-item-card-center">
-                            <h5 class="project-item-title">Search by photo</h5>
-                            <div class="project-item-desc">
-                                <p>We work hard on every app to deliver top-notch features with great UI that you won’t find anywhere else.</p>
-                            </div>
-                            <div class="wrapp-btn-circl-arrow justify-content-center">
-                                <a href="single-project.html" class="btn-circl-arrow btn-circl-arrow-white">
-                                    <svg viewBox="0 0 13 9" width="13" height="9" width="13px" height="9px">
-                                        <use xlink:href="assets/img/sprite.svg#arrow-right"></use>
-                                    </svg>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div><!-- End project item -->
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-12">
-                <div class="section-btns justify-content-center">
-                    <a href="index.html#!" class="btn btn-with-icon btn-w240 ripple">
-                        <span>See All Projects</span>
-                        <svg class="btn-icon-right" viewBox="0 0 13 9" width="13" height="9">
-                            <use xlink:href="assets/img/sprite.svg#arrow-right"></use>
-                        </svg>
-                    </a>
-                </div>
-            </div>
-        </div>
-    </div>
-</section><!-- End latest projects -->
-
-<!-- Begin team -->
-<section class="section">
-    <div class="container">
-        <div class="row items">
             <div class="col-12">
                 <div class="section-heading heading-center">
                     <div class="section-subheading">Who we are</div>
@@ -695,7 +518,7 @@
                     </div>
                 </div><!-- End reviews item -->
             </div>
-            <div class="col-12">
+            <!-- <div class="col-12">
                 <div class="section-btns justify-content-center">
                     <a href="testimonials.html" class="btn btn-with-icon btn-w240 ripple">
                         <span>See All Reviews</span>
@@ -704,83 +527,8 @@
                         </svg>
                     </a>
                 </div>
-            </div>
+            </div> -->
         </div>
     </div>
 </section><!-- End reviews -->
-
-<!-- Begin latest news -->
-<section class="section section-bg">
-    <div class="container">
-        <div class="row">
-            <div class="col-12">
-                <div class="section-heading heading-center">
-                    <div class="section-subheading">More info about</div>
-                    <h2>Latest News</h2>
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-6 col-12 item">
-                <!-- Begin news item -->
-                <article class="news-item item-style">
-                    <a href="news-post.html" class="news-item-img">
-                        <img data-src="assets/img/news-img-1.jpg" class="lazy" src="data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" alt="">
-                    </a>
-                    <div class="news-item-info">
-                        <div class="news-item-date">07/01/2021</div>
-                        <h4 class="news-item-title item-heading">
-                            <a href="news-post.html" title="Benefits Of Async/Await">Benefits Of Async/Await</a>
-                        </h4>
-                        <div class="news-item-desc">
-                            <p>Asynchronous functions are a good and bad thing in JavaScript.</p>
-                        </div>
-                    </div>
-                </article><!-- End news item -->
-            </div>
-            <div class="col-lg-4 col-md-6 col-12 item">
-                <!-- Begin news item -->
-                <article class="news-item item-style">
-                    <a href="news-post.html" class="news-item-img">
-                        <img data-src="assets/img/news-img-2.jpg" class="lazy" src="data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" alt="">
-                    </a>
-                    <div class="news-item-info">
-                        <div class="news-item-date">05/01/2021</div>
-                        <h4 class="news-item-title item-heading">
-                            <a href="news-post.html" title="Key Considerations Of IPaaS">Key Considerations Of IPaaS</a>
-                        </h4>
-                        <div class="news-item-desc">
-                            <p>Digital transformation requires cloud appropriate adoption</p>
-                        </div>
-                    </div>
-                </article><!-- End news item -->
-            </div>
-            <div class="col-lg-4 col-md-6 col-12 item">
-                <!-- Begin news item -->
-                <article class="news-item item-style">
-                    <a href="news-post.html" class="news-item-img">
-                        <img data-src="assets/img/news-img-3.jpg" class="lazy" src="data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" alt="">
-                    </a>
-                    <div class="news-item-info">
-                        <div class="news-item-date">01/01/2021</div>
-                        <h4 class="news-item-title item-heading">
-                            <a href="news-post.html" title="Hibernate Query Language">Hibernate Query Language</a>
-                        </h4>
-                        <div class="news-item-desc">
-                            <p>In this tutorial, we will discuss the Hibernate Query Language. </p>
-                        </div>
-                    </div>
-                </article><!-- End news item -->
-            </div>
-            <div class="col-12">
-                <div class="section-btns justify-content-center">
-                    <a href="news.html" class="btn btn-with-icon btn-w240 ripple">
-                        <span>See All News</span>
-                        <svg class="btn-icon-right" viewBox="0 0 13 9" width="13" height="9">
-                            <use xlink:href="assets/img/sprite.svg#arrow-right"></use>
-                        </svg>
-                    </a>
-                </div>
-            </div>
-        </div>
-    </div>
-</section><!-- End latest news -->
 @endsection

@@ -98,34 +98,20 @@
                                     </li>
                                 </ul>
                             </div>
-                            <div class="footer-item">
-                                <h4 class="footer-item-title">Subscribe</h4>
-                                <form action="" method="post" class="footer-subscribe">
-                                    <div class="form-field">
-                                        <label for="subscribe-email" class="form-field-label">Your email</label>
-                                        <input type="email" class="form-field-input" name="Subscribe_email" value="" autocomplete="off" required="required" id="subscribe-email">
-                                    </div>
-                                    <div class="form-btn">
-                                        <button type="submit" class="btn ripple"><span>Subscribe</span></button>
-                                    </div>
-                                </form>
-                            </div>
                         </div>
                     </div>
                 </div>
             </div>
             <div class="footer-bottom">
                 <div class="container">
-                    <div class="row justify-content-between items">
-                        <div class="col-md-auto col-12 item">
+                    <div class="row justify-content-between">
+                        <div class="col-md-auto col-12 item" style="margin-bottom: 0px;">
                             <nav class="footer-links">
                                 <ul>
-                                    <li><a href="terms-and-conditions.html">Terms and Conditions</a></li>
-                                    <li><a href="privacy-policy.html">Privacy Policy</a></li>
                                 </ul>
                             </nav>
                         </div>
-                        <div class="col-md-auto col-12 item">
+                        <div class="col-md-auto col-12 item" style="margin-bottom: 0px;">
                             <div class="copyright">© 2021 BCM. All rights reserved.</div>
                         </div>
                     </div>

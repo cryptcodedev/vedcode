@@ -6115,7 +6115,7 @@ body.mob-main-mnu-open .mob-main-mnu {
 
 .footer-bottom {
     position: relative;
-    padding: 3rem 0;
+    padding: 0.5rem 0;
 }
 
 .footer-bottom::before {
@@ -6138,7 +6138,7 @@ body.mob-main-mnu-open .mob-main-mnu {
 }
 
 .footer-bottom .item {
-    margin-bottom: 2.5rem;
+    /* margin-bottom: 2.5rem; */
 }
 
 .footer-links ul {
