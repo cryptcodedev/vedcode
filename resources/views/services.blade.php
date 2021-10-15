@@ -24,7 +24,7 @@
         <div class="row items">
             <div class="col-12">
                 <div class="section-heading heading-center">
-                    <div class="section-subheading">Areas what we serv</div>
+                    <div class="section-subheading">Areas what we serve</div>
                     <h1>Our Services</h1>
                 </div>
             </div>
