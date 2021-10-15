@@ -15,15 +15,15 @@ Author URI: https://kovalweb.com/
     --font-style: normal;
     --line-height: 1.6;
     --heading-line-height: 1.3;
-    --main-color: #2c7ae7;
-    --el-gradient1: #2876e2;
-    --el-gradient2: #3f8efc;
+    --main-color: #9E6309;
+    --el-gradient1: #D3840C;
+    --el-gradient2: #A16509;
     --primary-color: #ffffff;
     --primary-bg-color: #F0F4F8;
     --secondary-color: #000000;
-    --secondary-bg-color: #303036;
-    --text-primary: #303036;
-    --text-secondary: #63636b;
+    --secondary-bg-color: rgb(1, 16, 33, 0.965);
+    --text-primary: rgb(1, 16, 33, 0.965);
+    --text-secondary: #1F334E;
     --border-color: #D4D4E1;
     --placeholder-color: #B7B7BA;
     --error-color: #ff3d0d;
@@ -37,7 +37,7 @@ Author URI: https://kovalweb.com/
     --alert-warning: #FFD43D;
 }
 
-/* === CSS Table Of Content
+/* === #63636b CSS Table Of Content
 
 1. Content
     1.1 Fonts
@@ -856,8 +856,8 @@ blockquote footer {
 
 .btn.btn-border {
     background: transparent;
-    color: var(--text-primary);
-    fill: var(--text-primary);
+    color: var(--text-secondary);
+    fill: var(--text-secondary);
 }
 
 .btn.btn-border:hover {
@@ -871,7 +871,7 @@ blockquote footer {
     top: 0;
     width: 100%;
     height: 100%;
-    border: 1px solid var(--text-primary);
+    border: 1px solid var(--text-secondary);
     border-radius: var(--el-border-radius-min);
     overflow: hidden;
 }
@@ -2246,9 +2246,6 @@ textarea {
     left: 0;
     top: 0;
     width: 100%;
-    height: 100%;
-    background-color: var(--primary-color);
-    opacity: 0.7;
 }
 
 .intro-item .section-desc {
@@ -2258,7 +2255,7 @@ textarea {
 .intro-content {
     width: 100%;
     max-width: 500px;
-    padding: 0 0 3.75rem 100px;
+    padding: 3.75rem 0 3.75rem 100px;
 }
 
 .intro-content.intro-content-center {
@@ -2273,6 +2270,7 @@ textarea {
 
 .intro-btns {
     margin-top: 2rem;
+    margin-bottom: 2rem;
 }
 
 .intro-box {
@@ -2343,7 +2341,7 @@ textarea {
     }
 
     .intro-content .section-desc {
-        color: var(--text-primary);
+        color: white;
     }
 
     .intro-item::after {
@@ -2434,6 +2432,7 @@ textarea {
     background: var(--primary-color);
     color: var(--main-color);
     fill: var(--main-color);
+    display: none;
 }
 
 .services-item:hover .services-item-ico-bg {
@@ -2529,7 +2528,7 @@ textarea {
 .services-item-ico-bg {
     position: absolute;
     left: -2rem;
-    top: 2rem;
+    top: 4rem;
     z-index: 1;
     opacity: 0;
     color: var(--primary-color);
@@ -2538,7 +2537,7 @@ textarea {
 }
 
 .services-item-ico-bg i {
-    font-size: 31.25rem;
+    font-size: 15.25rem;
     width: 31.25rem;
     height: 31.25rem;
 }
@@ -4483,12 +4482,12 @@ textarea {
     top: 0;
     width: 100%;
     padding: 0.75rem 0;
-    background-color: var(--primary-color);
+    background: rgb(2, 16, 33);
     font-size: 1rem;
     display: flex;
     align-items: center;
     z-index: 101;
-    box-shadow: var(--header-box-shadow);
+    /* box-shadow: var(--header-box-shadow); */
 }
 
 .header-fixed .logo {
@@ -4809,7 +4808,7 @@ body.mob-main-mnu-open .mob-main-mnu {
 }
 
 .main-mnu-list > li a {
-    color: var(--text-primary);
+    color: rgb(157, 195, 218, 0.67);
     position: relative;
     display: block;
     text-decoration: none;
@@ -4914,7 +4913,7 @@ body.mob-main-mnu-open .mob-main-mnu {
     display: block;
     width: 100%;
     height: 2px;
-    background-color: var(--text-primary);
+    background-color: #ffffff;
     transition: all 0.4s ease-in-out;
 }
 
@@ -5706,6 +5705,7 @@ body.mob-main-mnu-open .mob-main-mnu {
 
 .section-heading.shm-none {
     margin-bottom: 0;
+    color: #ffffff;
 }
 
 .section-heading .wrap-btn {

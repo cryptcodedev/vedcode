@@ -5,7 +5,7 @@
 
     <meta charset="utf-8">
 
-    <title>PathSoft - IT Solution for You Business</title>
+    <title>BCM - IT Solution for You Business</title>
 
     <meta name="description" content="Description">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">

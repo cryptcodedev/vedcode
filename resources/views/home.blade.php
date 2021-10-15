@@ -1,17 +1,42 @@
 @extends('layouts.main')
 
 @section('content')
+<style>
+ .intro-content-background{
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.5) 20%, rgba(0, 0, 0, 0.02)100%) 50% no-repeat;
+    border-top-left-radius: 2em;
+    border-bottom-left-radius: 2em;
+ }  
+ .white{
+     color: white;
+ } 
+ .btn.btn-border{
+     color: white;
+ }
+ .btn.btn-border::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    border: 1px solid white;
+    border-radius: white;
+    overflow: hidden;
+}
+</style>
+
 <!-- Begin intro -->
 <div class="section-bg intro">
-    <div class="intro-slider flickity-dots-absolute" data-flickity='{ "bgLazyLoad": 1, "bgLazyLoad": true, "fade": true, "prevNextButtons": false }'>
+    <div class="intro-slider flickity-dots-absolute" data-flickity='{ "bgLazyLoad": 1, "bgLazyLoad": true, "fade": true, "autoPlay":6000 ,"prevNextButtons": false}'>
         <div class="intro-item" data-flickity-bg-lazyload="{{asset('assets/img/intro-img1.jpg')}}">
             <div class="container">
                 <div class="row">
-                    <div class="col">
+                    <div class="col intro-content-background">
                         <div class="intro-content">
                             <div class="section-heading shm-none">
                                 <h1>IT Solution for Your Business</h1>
-                                <p class="section-desc">The template you will be able to create a site for your business. The template has many different blocks from which you can create your own unique site.</p>
+                                <p class="section-desc white">The template you will be able to create a site for your business. The template has many different blocks from which you can create your own unique site.</p>
                             </div>
                             <div class="wrap-btn intro-btns">
                                 <a href="{{url('about-us')}}" class="btn btn-with-icon btn-small ripple">
@@ -35,11 +60,11 @@
         <div class="intro-item" data-flickity-bg-lazyload="assets/img/intro-img2.jpg">
             <div class="container">
                 <div class="row">
-                    <div class="col">
+                    <div class="col intro-content-background">
                         <div class="intro-content">
                             <div class="section-heading shm-none">
                                 <h2>IT Solution for Your Business</h2>
-                                <p class="section-desc">Since our establishment, we have been delivering high-quality and sustainable software solutions for corporate business purposes.</p>
+                                <p class="section-desc white">Since our establishment, we have been delivering high-quality and sustainable software solutions for corporate business purposes.</p>
                             </div>
                             <div class="wrap-btn intro-btns">
                                 <a href="{{url('about-us')}}" class="btn btn-with-icon btn-small ripple">
@@ -60,14 +85,14 @@
                 </div>
             </div>
         </div>
-        <div class="intro-item" data-flickity-bg-lazyload="assets/img/intro-img3.jpg">
+        <div class="intro-item" data-flickity-bg-lazyload="assets/img/intro-img4.jpg">
             <div class="container">
                 <div class="row">
-                    <div class="col">
+                    <div class="col intro-content-background">
                         <div class="intro-content">
                             <div class="section-heading shm-none">
                                 <h2>IT Solution for Your Business</h2>
-                                <p class="section-desc">The template you will be able to create a site for your business. The template has many different blocks from which you can create your own unique site.</p>
+                                <p class="section-desc white">The template you will be able to create a site for your business. The template has many different blocks from which you can create your own unique site.</p>
                             </div>
                             <div class="wrap-btn intro-btns">
                                 <a href="{{url('about-us')}}" class="btn btn-with-icon btn-small ripple">
@@ -142,7 +167,7 @@
             </div>
             <div class="col-12">
                 <div class="section-btns justify-content-center">
-                    <a href="services.html" class="btn btn-with-icon btn-w240 ripple">
+                    <a href="{{url('services')}}" class="btn btn-with-icon btn-w240 ripple">
                         <span>See All Services</span>
                         <svg class="btn-icon-right" viewBox="0 0 13 9" width="13" height="9">
                             <use xlink:href="assets/img/sprite.svg#arrow-right"></use>
@@ -244,12 +269,12 @@
 <section class="section">
     <div class="container">
         <div class="row spincrement-container">
-            <div class="col-xl-5 offset-xl-2 col-lg-6 offset-lg-1 col-12">
+            <div class="col-xl-5 offset-xl-2 col-lg-6 offset-lg-1 col-12 my-auto">
                 <div class="main-counter">
                     <div class="main-counter-item">
                         <div class="main-counter-item-center">
                             <div>
-                                <div class="main-counter-numb spincrement" data-from="0" data-to="10">0</div>
+                                <div class="main-counter-numb spincrement" data-from="0" data-to="3">0</div>
                                 <div class="main-counter-title">Years <br> Of Experience</div>
                             </div>
                         </div>
@@ -259,8 +284,16 @@
             </div>
             <div class="col-xl-4 offset-xl-1 col-lg-3 offset-lg-1 col-12 counter-items items">
                 <div class="counter-item item">
-                    <div class="counter-item-numb"><span class="spincrement" data-from="0" data-to="2">0</span>K</div>
+                    <div class="counter-item-numb"><span class="spincrement" data-from="0" data-to="4">0</span></div>
                     <h4 class="counter-item-title">Аpps Developed</h4>
+                </div>
+                <div class="counter-item item">
+                    <div class="counter-item-numb"><span class="spincrement" data-from="0" data-to="3">0</span></div>
+                    <h4 class="counter-item-title">Systems Developed</h4>
+                </div>
+                <div class="counter-item item">
+                    <div class="counter-item-numb"><span class="spincrement" data-from="0" data-to="5">0</span></div>
+                    <h4 class="counter-item-title">Websites Developed</h4>
                 </div>
                 <div class="counter-item item">
                     <div class="counter-item-numb spincrement" data-from="0" data-to="40">0</div>
@@ -282,7 +315,7 @@
             <div class="col-12">
                 <div class="section-heading heading-center">
                     <div class="section-subheading">Who we are</div>
-                    <h2>Meet The Team</h2>
+                    <h2>Our Team</h2>
                 </div>
             </div>
             <div class="col-lg-3 col-sm-6 col-12 item">
@@ -294,36 +327,36 @@
                     <div class="team-item-info">
                         <h4 class="team-item-title item-heading">Mary Lee</h4>
                         <div class="team-item-position">Software Developer</div>
-                        <ul class="team-item-social-links">
+                        <!-- <ul class="team-item-social-links">
                             <li>
-                                <a href="index.html#!" title="Facebook">
+                                <a href="" title="Facebook">
                                     <svg viewBox="0 0 320 512">
-                                        <use xlink:href="assets/img/sprite.svg#facebook-ico"></use>
+                                        <use xlink:href="assets/img/sprite.svg"></use>
                                     </svg>
                                 </a>
                             </li>
                             <li>
-                                <a href="index.html#!" title="Instagram">
+                                <a href="" title="Instagram">
                                     <svg viewBox="0 0 448 512">
                                         <use xlink:href="assets/img/sprite.svg#instagram-ico"></use>
                                     </svg>
                                 </a>
                             </li>
                             <li>
-                                <a href="index.html#!" title="LinkedIn">
+                                <a href="" title="LinkedIn">
                                     <svg viewBox="0 0 448 512">
                                         <use xlink:href="assets/img/sprite.svg#linkedin-in-ico"></use>
                                     </svg>
                                 </a>
                             </li>
                             <li>
-                                <a href="index.html#!" title="Twitter">
+                                <a href="" title="Twitter">
                                     <svg viewBox="0 0 512 512">
                                         <use xlink:href="assets/img/sprite.svg#twitter-ico"></use>
                                     </svg>
                                 </a>
                             </li>
-                        </ul>
+                        </ul> -->
                     </div>
                 </div><!-- End team item -->
             </div>
@@ -336,36 +369,36 @@
                     <div class="team-item-info">
                         <h4 class="team-item-title item-heading">Ryan Wilson</h4>
                         <div class="team-item-position">CEO</div>
-                        <ul class="team-item-social-links">
+                        <!-- <ul class="team-item-social-links">
                             <li>
-                                <a href="index.html#!" title="Facebook">
+                                <a href="" title="Facebook">
                                     <svg viewBox="0 0 320 512">
                                         <use xlink:href="assets/img/sprite.svg#facebook-ico"></use>
                                     </svg>
                                 </a>
                             </li>
                             <li>
-                                <a href="index.html#!" title="Instagram">
+                                <a href="" title="Instagram">
                                     <svg viewBox="0 0 448 512">
                                         <use xlink:href="assets/img/sprite.svg#instagram-ico"></use>
                                     </svg>
                                 </a>
                             </li>
                             <li>
-                                <a href="index.html#!" title="LinkedIn">
+                                <a href="" title="LinkedIn">
                                     <svg viewBox="0 0 448 512">
                                         <use xlink:href="assets/img/sprite.svg#linkedin-in-ico"></use>
                                     </svg>
                                 </a>
                             </li>
                             <li>
-                                <a href="index.html#!" title="Twitter">
+                                <a href="" title="Twitter">
                                     <svg viewBox="0 0 512 512">
                                         <use xlink:href="assets/img/sprite.svg#twitter-ico"></use>
                                     </svg>
                                 </a>
                             </li>
-                        </ul>
+                        </ul> -->
                     </div>
                 </div><!-- End team item -->
             </div>
@@ -378,36 +411,36 @@
                     <div class="team-item-info">
                         <h4 class="team-item-title item-heading">Sam Robinson</h4>
                         <div class="team-item-position">Senior Developer</div>
-                        <ul class="team-item-social-links">
+                        <!-- <ul class="team-item-social-links">
                             <li>
-                                <a href="index.html#!" title="Facebook">
+                                <a href="" title="Facebook">
                                     <svg viewBox="0 0 320 512">
                                         <use xlink:href="assets/img/sprite.svg#facebook-ico"></use>
                                     </svg>
                                 </a>
                             </li>
                             <li>
-                                <a href="index.html#!" title="Instagram">
+                                <a href="" title="Instagram">
                                     <svg viewBox="0 0 448 512">
                                         <use xlink:href="assets/img/sprite.svg#instagram-ico"></use>
                                     </svg>
                                 </a>
                             </li>
                             <li>
-                                <a href="index.html#!" title="LinkedIn">
+                                <a href="" title="LinkedIn">
                                     <svg viewBox="0 0 448 512">
                                         <use xlink:href="assets/img/sprite.svg#linkedin-in-ico"></use>
                                     </svg>
                                 </a>
                             </li>
                             <li>
-                                <a href="index.html#!" title="Twitter">
+                                <a href="" title="Twitter">
                                     <svg viewBox="0 0 512 512">
                                         <use xlink:href="assets/img/sprite.svg#twitter-ico"></use>
                                     </svg>
                                 </a>
                             </li>
-                        </ul>
+                        </ul> -->
                     </div>
                 </div><!-- End team item -->
             </div>
@@ -420,36 +453,36 @@
                     <div class="team-item-info">
                         <h4 class="team-item-title item-heading">Jill Peterson</h4>
                         <div class="team-item-position">Senior Developer</div>
-                        <ul class="team-item-social-links">
+                        <!-- <ul class="team-item-social-links">
                             <li>
-                                <a href="index.html#!" title="Facebook">
+                                <a href="" title="Facebook">
                                     <svg viewBox="0 0 320 512">
                                         <use xlink:href="assets/img/sprite.svg#facebook-ico"></use>
                                     </svg>
                                 </a>
                             </li>
                             <li>
-                                <a href="index.html#!" title="Instagram">
+                                <a href="" title="Instagram">
                                     <svg viewBox="0 0 448 512">
                                         <use xlink:href="assets/img/sprite.svg#instagram-ico"></use>
                                     </svg>
                                 </a>
                             </li>
                             <li>
-                                <a href="index.html#!" title="LinkedIn">
+                                <a href="" title="LinkedIn">
                                     <svg viewBox="0 0 448 512">
                                         <use xlink:href="assets/img/sprite.svg#linkedin-in-ico"></use>
                                     </svg>
                                 </a>
                             </li>
                             <li>
-                                <a href="index.html#!" title="Twitter">
+                                <a href="" title="Twitter">
                                     <svg viewBox="0 0 512 512">
                                         <use xlink:href="assets/img/sprite.svg#twitter-ico"></use>
                                     </svg>
                                 </a>
                             </li>
-                        </ul>
+                        </ul> -->
                     </div>
                 </div><!-- End team item -->
             </div>
