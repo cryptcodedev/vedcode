@@ -11,7 +11,7 @@
                         <a href="{{url('/')}}">Home</a>
                         <i class="material-icons md-18">chevron_right</i>
                     </li>
-                    <li><a href="services.html#!">Services</a></li>
+                    <li><a href="{{url('services')}}">Services</a></li>
                 </ul>
             </div>
         </div>

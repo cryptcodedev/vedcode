@@ -8,14 +8,14 @@
 						<div class="col-12">
 							<ul class="bread-crumbs-list">
 								<li>
-									<a href="index.html">Home</a>
+									<a href="{{url('/')}}">Home</a>
 									<i class="material-icons md-18">chevron_right</i>
 								</li>
 								<li>
-									<a href="services.html">Services</a>
+									<a href="{{url('services')}}">Services</a>
 									<i class="material-icons md-18">chevron_right</i>
 								</li>
-								<li><a href="single-services.html#!">Corporate Solutions</a></li>
+								<li><a href="{{url('single-services')}}">Corporate Solutions</a></li>
 							</ul>
 						</div>
 					</div>
