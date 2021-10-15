@@ -28,7 +28,7 @@
 
 <!-- Begin intro -->
 <div class="section-bg intro">
-    <div class="intro-slider flickity-dots-absolute" data-flickity='{ "bgLazyLoad": 1, "bgLazyLoad": true, "fade": true, "autoPlay":6000 ,"prevNextButtons": false}'>
+    <div class="intro-slider flickity-dots-absolute" data-flickity='{ "bgLazyLoad": 1, "bgLazyLoad": true, "fade": true, "autoPlay":7000 ,"prevNextButtons": false}'>
         <div class="intro-item" data-flickity-bg-lazyload="{{asset('assets/img/intro-img1.jpg')}}">
             <div class="container">
                 <div class="row">
@@ -269,7 +269,7 @@
 <section class="section">
     <div class="container">
         <div class="row spincrement-container">
-            <div class="col-xl-5 offset-xl-2 col-lg-6 offset-lg-1 col-12 my-auto">
+            <div class="col-xl-5 col-md-4 col-lg-4  col-12 my-auto">
                 <div class="main-counter">
                     <div class="main-counter-item">
                         <div class="main-counter-item-center">
@@ -282,7 +282,9 @@
                     </div>
                 </div>
             </div>
-            <div class="col-xl-4 offset-xl-1 col-lg-3 offset-lg-1 col-12 counter-items items">
+            <div class="col-xl-4 offset-xl-1 col-lg-5 offset-lg-1 col-12 counter-items items">
+            <div class="row">
+                <div class="col-lg-6">
                 <div class="counter-item item">
                     <div class="counter-item-numb"><span class="spincrement" data-from="0" data-to="4">0</span></div>
                     <h4 class="counter-item-title">Аpps Developed</h4>
@@ -295,6 +297,8 @@
                     <div class="counter-item-numb"><span class="spincrement" data-from="0" data-to="5">0</span></div>
                     <h4 class="counter-item-title">Websites Developed</h4>
                 </div>
+                </div>
+                <div class="col-lg-6">
                 <div class="counter-item item">
                     <div class="counter-item-numb spincrement" data-from="0" data-to="40">0</div>
                     <h4 class="counter-item-title">Consultans</h4>
@@ -302,6 +306,8 @@
                 <div class="counter-item item">
                     <div class="counter-item-numb spincrement" data-from="0" data-to="160">0</div>
                     <h4 class="counter-item-title">Employers</h4>
+                </div>        
+                </div>
                 </div>
             </div>
         </div>
@@ -322,7 +328,7 @@
                 <!-- Begin team item -->
                 <div class="team-item item-style">
                     <div class="team-item-img">
-                        <img data-src="assets/img/team-img-1.jpg" class="lazy" src="data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" alt="">
+                        <img data-src="assets/img/team-img-7.png" class="lazy" src="data:image/gif" alt="">
                     </div>
                     <div class="team-item-info">
                         <h4 class="team-item-title item-heading">Mary Lee</h4>
@@ -364,7 +370,7 @@
                 <!-- Begin team item -->
                 <div class="team-item item-style">
                     <div class="team-item-img">
-                        <img data-src="assets/img/team-img-2.jpg" class="lazy" src="data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" alt="">
+                        <img data-src="assets/img/team-img-8.png" class="lazy" src="data:image/gif" alt="">
                     </div>
                     <div class="team-item-info">
                         <h4 class="team-item-title item-heading">Ryan Wilson</h4>
@@ -406,7 +412,7 @@
                 <!-- Begin team item -->
                 <div class="team-item item-style">
                     <div class="team-item-img">
-                        <img data-src="assets/img/team-img-3.jpg" class="lazy" src="data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" alt="">
+                        <img data-src="assets/img/team-img-9.png" class="lazy" src="data:image/gif" alt="">
                     </div>
                     <div class="team-item-info">
                         <h4 class="team-item-title item-heading">Sam Robinson</h4>
@@ -448,7 +454,7 @@
                 <!-- Begin team item -->
                 <div class="team-item item-style">
                     <div class="team-item-img">
-                        <img data-src="assets/img/team-img-4.jpg" class="lazy" src="data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" alt="">
+                        <img data-src="assets/img/team-img-7.png" class="lazy" src="data:image/gif" alt="">
                     </div>
                     <div class="team-item-info">
                         <h4 class="team-item-title item-heading">Jill Peterson</h4>
@@ -505,7 +511,7 @@
                 <div class="reviews-item item-style">
                     <div class="reviews-item-header">
                         <div class="reviews-item-img">
-                            <img data-src="assets/img/auth-img-1.jpg" class="lazy" src="data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" alt="">
+                            <img data-src="assets/img/auth-img-1.jpg" class="lazy" src="data:image/gif" alt="">
                         </div>
                         <div class="reviews-item-info">
                             <h4 class="reviews-item-title item-heading">Catherine Williams</h4>
@@ -522,7 +528,7 @@
                 <div class="reviews-item item-style">
                     <div class="reviews-item-header">
                         <div class="reviews-item-img">
-                            <img data-src="assets/img/auth-img-2.jpg" class="lazy" src="data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" alt="">
+                            <img data-src="assets/img/auth-img-2.jpg" class="lazy" src="data:image/gif" alt="">
                         </div>
                         <div class="reviews-item-info">
                             <h4 class="reviews-item-title item-heading">Rupert Wood</h4>
@@ -539,7 +545,7 @@
                 <div class="reviews-item item-style">
                     <div class="reviews-item-header">
                         <div class="reviews-item-img">
-                            <img data-src="assets/img/auth-img-3.jpg" class="lazy" src="data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" alt="">
+                            <img data-src="assets/img/auth-img-3.jpg" class="lazy" src="data:image/gif" alt="">
                         </div>
                         <div class="reviews-item-info">
                             <h4 class="reviews-item-title item-heading">Samantha Brown</h4>
