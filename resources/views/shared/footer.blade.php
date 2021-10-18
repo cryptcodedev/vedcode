@@ -9,7 +9,6 @@
                                 <div class="footer-company-top">
                                     <a href="{{url('/')}}" class="logo logo-ico-widht-text" title="PathSoft">
                                         <img class="lazy logo-ico" data-src="assets/img/logo-ico.png" width="36" height="35" src="data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" alt="">
-                                        <span class="logo-text">PathSoft</span>
                                     </a>
                                     <div class="footer-company-desc">
                                         <p>Our company has been developing high-quality and reliable software for corporate needs since 2008. We are renowned professionals of software development.</p>
@@ -18,30 +17,22 @@
                                 <ul class="footer-social-links">
                                     <li>
                                         <a href="{{url('/')}}" title="Facebook">
-                                            <svg viewBox="0 0 320 512">
-                                                <use xlink:href="assets/img/sprite.svg#facebook-ico"></use>
-                                            </svg>
+                                         <img src="{{asset('assets/img/facebook.png')}}"></img>
                                         </a>
                                     </li>
                                     <li>
                                         <a href="{{url('/')}}" title="Instagram">
-                                            <svg viewBox="0 0 448 512">
-                                                <use xlink:href="assets/img/sprite.svg#instagram-ico"></use>
-                                            </svg>
+                                          <img src="{{asset('assets/img/instagram-2.png')}}"></img>
                                         </a>
                                     </li>
                                     <li>
                                         <a href="{{url('/')}}" title="LinkedIn">
-                                            <svg viewBox="0 0 448 512">
-                                                <use xlink:href="assets/img/sprite.svg#linkedin-in-ico"></use>
-                                            </svg>
+                                        <img src="{{asset('assets/img/linkedin.png')}}"></img>
                                         </a>
                                     </li>
                                     <li>
                                         <a href="{{url('/')}}" title="Twitter">
-                                            <svg viewBox="0 0 512 512">
-                                                <use xlink:href="assets/img/sprite.svg#twitter-ico"></use>
-                                            </svg>
+                                        <img src="{{asset('assets/img/twitter.png')}}"></img>
                                         </a>
                                     </li>
                                 </ul>
@@ -65,11 +56,11 @@
                                 <h4 class="footer-item-title">What We Offer</h4>
                                 <nav class="footer-nav">
                                     <ul class="footer-mnu">
-                                        <li><a href="{{url('/')}}" class="hover-link" data-title="DB Management"><span>DB Management</span></a></li>
-                                        <li><a href="{{url('/')}}" class="hover-link" data-title="IOS/MacOS"><span>IOS/MacOS</span></a></li>
-                                        <li><a href="{{url('/')}}" class="hover-link" data-title="Android Apps"><span>Android Apps</span></a></li>
-                                        <li><a href="{{url('/')}}" class="hover-link" data-title="Windows Apps"><span>Windows Apps</span></a></li>
-                                        <li><a href="{{url('/')}}" class="hover-link" data-title="UX & UI"><span>UX & UI</span></a></li>
+                                        <li><a href="{{url('corporate-solution-service')}}" class="hover-link" data-title="Corporate Solution"><span>Corporate Solution</span></a></li>
+                                        <li><a href="{{url('call-center-solutions-service')}}" class="hover-link" data-title="Call Center"><span>Call Center</span></a></li>
+                                        <li><a href="{{url('cloud-development-service')}}" class="hover-link" data-title="Cloud"><span>Cloud</span></a></li>
+                                        <li><a href="{{url('IOS/MacOS-Apps-service')}}" class="hover-link" data-title="IOS/MacOS Apps"><span>IOS/MacOS Apps</span></a></li>
+                                        <li><a href="{{url('ux-design-service')}}" class="hover-link" data-title="UX And Design"><span>UX And Design</span></a></li>
                                     </ul>
                                 </nav>
                             </div>
@@ -88,6 +79,12 @@
                                         <i class="material-icons md-22 footer-contact-tel">smartphone</i>
                                         <div class="footer-contact-info">
                                             <a href="{{url('/')}}" class="formingHrefTel">+1 323-913-4688</a>, <a href="{{url('/')}}" class="formingHrefTel">+1 323-888-4554</a>
+                                        </div>
+                                    </li>
+                                    <li>
+                                    <i class="material-icons md-22" aria-hidden="true">watch</i>
+                                        <div class="footer-contact-info">
+                                            <a href="mailto:mail@example.com">08:00 - 04:00 Mon - Friday</a>
                                         </div>
                                     </li>
                                     <li>

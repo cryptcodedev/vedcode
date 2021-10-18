@@ -25,6 +25,21 @@ Route::get('about-us', function(){
 Route::get('contact-us', function(){
     return view('contact-us');
 });
-Route::get('single-services', function(){
-    return view('single-services');
+Route::get('corporate-solution-service', function(){
+    return view('single-service-1');
+});
+Route::get('call-center-solutions-service', function(){
+    return view('single-service-2');
+});
+Route::get('cloud-development-service', function(){
+    return view('single-service-3');
+});
+Route::get('IOS/MacOS-Apps-service', function(){
+    return view('single-service-4');
+});
+Route::get('android-applications-service', function(){
+    return view('single-service-5');
+});
+Route::get('ux-design-service', function(){
+    return view('single-service-6');
 });

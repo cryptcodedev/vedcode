@@ -49,6 +49,12 @@
                             </div>
                         </li>
                         <li>
+                                    <i class="material-icons md-22" aria-hidden="true">watch</i>
+                                        <div class="footer-contact-info">
+                                            <a href="mailto:mail@example.com">08:00 - 04:00 Mon - Friday</a>
+                                        </div>
+                                    </li>
+                        <li>
                             <i class="material-icons md-22 footer-contact-email">email</i>
                             <div class="footer-contact-info">
                                 <a href="mailto:mail@example.com">mail@example.com</a>
