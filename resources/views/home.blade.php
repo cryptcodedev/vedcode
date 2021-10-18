@@ -128,7 +128,7 @@
             </div>
             <div class="col-lg-4 col-md-6 col-12 item">
                 <!-- Begin services item -->
-                <a href="{{url('single-services')}}" class="services-item item-style">
+                <a href="{{url('corporate-solution-service')}}" class="services-item item-style">
                     <div class="services-item-ico">
                         <i class="material-icons material-icons-outlined md-48">settings</i>
                     </div>
@@ -141,7 +141,7 @@
             </div>
             <div class="col-lg-4 col-md-6 col-12 item">
                 <!-- Begin services item -->
-                <a href="{{url('single-services')}}" class="services-item item-style">
+                <a href="{{url('call-center-solutions-service')}}" class="services-item item-style">
                     <div class="services-item-ico">
                         <i class="material-icons material-icons-outlined md-48">perm_phone_msg</i>
                     </div>
@@ -154,7 +154,7 @@
             </div>
             <div class="col-lg-4 col-md-12 col-12 item">
                 <!-- Begin services item -->
-                <a href="{{url('single-services')}}" class="services-item item-style">
+                <a href="{{url('cloud-development-service')}}" class="services-item item-style">
                     <div class="services-item-ico">
                         <i class="material-icons material-icons-outlined md-48">cloud_download</i>
                     </div>
@@ -328,7 +328,7 @@
                 <!-- Begin team item -->
                 <div class="team-item item-style">
                     <div class="team-item-img">
-                        <img data-src="assets/img/team-img-7.png" class="lazy" src="data:image/gif" alt="">
+                        <img src="assets/img/team-img-7.png" class="lazy" alt="">
                     </div>
                     <div class="team-item-info">
                         <h4 class="team-item-title item-heading">Mary Lee</h4>
@@ -370,7 +370,7 @@
                 <!-- Begin team item -->
                 <div class="team-item item-style">
                     <div class="team-item-img">
-                        <img data-src="assets/img/team-img-8.png" class="lazy" src="data:image/gif" alt="">
+                        <img src="assets/img/team-img-8.png" class="lazy" alt="">
                     </div>
                     <div class="team-item-info">
                         <h4 class="team-item-title item-heading">Ryan Wilson</h4>
@@ -412,7 +412,7 @@
                 <!-- Begin team item -->
                 <div class="team-item item-style">
                     <div class="team-item-img">
-                        <img data-src="assets/img/team-img-9.png" class="lazy" src="data:image/gif" alt="">
+                        <img src="assets/img/team-img-9.png" class="lazy" alt="">
                     </div>
                     <div class="team-item-info">
                         <h4 class="team-item-title item-heading">Sam Robinson</h4>
@@ -454,7 +454,7 @@
                 <!-- Begin team item -->
                 <div class="team-item item-style">
                     <div class="team-item-img">
-                        <img data-src="assets/img/team-img-7.png" class="lazy" src="data:image/gif" alt="">
+                        <img src="assets/img/team-img-7.png" class="lazy" alt="">
                     </div>
                     <div class="team-item-info">
                         <h4 class="team-item-title item-heading">Jill Peterson</h4>

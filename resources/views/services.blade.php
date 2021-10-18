@@ -30,7 +30,7 @@
             </div>
             <div class="col-lg-4 col-md-6 col-12 item">
                 <!-- Begin services item -->
-                <a href="{{url('single-services')}}" class="services-item item-style">
+                <a href="{{url('corporate-solution-service')}}" class="services-item item-style">
                     <div class="services-item-ico">
                         <i class="material-icons material-icons-outlined md-48">settings</i>
                     </div>
@@ -44,7 +44,7 @@
             </div>
             <div class="col-lg-4 col-md-6 col-12 item">
                 <!-- Begin services item -->
-                <a href="{{url('single-services')}}" class="services-item item-style">
+                <a href="{{url('call-center-solutions-service')}}" class="services-item item-style">
                     <div class="services-item-ico">
                         <i class="material-icons material-icons-outlined md-48">perm_phone_msg</i>
                     </div>
@@ -58,7 +58,7 @@
             </div>
             <div class="col-lg-4 col-md-12 col-12 item">
                 <!-- Begin services item -->
-                <a href="{{url('single-services')}}" class="services-item item-style">
+                <a href="{{url('cloud-development-service')}}" class="services-item item-style">
                     <div class="services-item-ico">
                         <i class="material-icons material-icons-outlined md-48">cloud_download</i>
                     </div>
@@ -72,7 +72,7 @@
             </div>
             <div class="col-lg-4 col-md-6 col-12 item">
                 <!-- Begin services item -->
-                <a href="{{url('single-services')}}" class="services-item item-style">
+                <a href="{{url('IOS/MacOS-Apps-service')}}" class="services-item item-style">
                     <div class="services-item-ico">
                         <i class="material-icons material-icons-outlined md-48">laptop_mac</i>
                     </div>
@@ -85,7 +85,7 @@
             </div>
             <div class="col-lg-4 col-md-6 col-12 item">
                 <!-- Begin services item -->
-                <a href="{{url('single-services')}}" class="services-item item-style">
+                <a href="{{url('android-applications-service')}}" class="services-item item-style">
                     <div class="services-item-ico">
                         <i class="material-icons material-icons-outlined md-48">phone_android</i>
                     </div>
@@ -98,7 +98,7 @@
             </div>
             <div class="col-lg-4 col-md-12 col-12 item">
                 <!-- Begin services item -->
-                <a href="{{url('single-services')}}" class="services-item item-style">
+                <a href="{{url('ux-design-service')}}" class="services-item item-style">
                     <div class="services-item-ico">
                         <i class="material-icons material-icons-outlined md-48">tv</i>
                     </div>

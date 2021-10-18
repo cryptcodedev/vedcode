@@ -1133,11 +1133,11 @@ blockquote footer {
     fill: var(--main-color);
 }
 
-.btn-top > svg {
+.btn-top > img {
     width: 14px;
-    height: 10px;
+    height: 14px;
     margin: auto;
-    transform: rotate(-90deg);
+    transform: rotate(0deg);
 }
 
 /* 2.5 Carusel */
@@ -6010,17 +6010,14 @@ body.mob-main-mnu-open .mob-main-mnu {
     border: 1px solid var(--primary-color);
 }
 
-.footer-social-links li a > svg {
+.footer-social-links li a > img {
     display: block;
-    width: 1.125rem;
-    height: 1.125rem;
     margin: auto;
 }
-
 .footer-social-links li a:hover {
-    background-color: var(--primary-color);
-    fill: var(--secondary-bg-color);
-    opacity: 1;
+    background-color: rgba(0, 0, 0, 0.5);
+    border: none;
+    /* opacity: 0.1; */
 }
 
 .footer-item {

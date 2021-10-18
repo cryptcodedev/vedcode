@@ -1,6 +1,11 @@
 @extends('layouts.main')
 
 @section('content')
+<style>
+    q{
+        font-style: oblique;
+    }
+</style>
 
 <!-- Begin bread crumbs -->
 <nav class="bread-crumbs">
@@ -53,8 +58,8 @@
         <div class="row items">
             <div class="col-12">
                 <div class="section-heading heading-center">
-                    <div class="section-subheading">some reasons</div>
-                    <h2>Why Choose Us</h2>
+                    <div class="section-subheading">a roadmap for how to get there</div>
+                    <h2>Vission & Mission</h2>
                 </div>
             </div>
             <div class="col-lg-4 col-md-6 col-12 item">
@@ -62,9 +67,9 @@
                 <div class="advantages-item">
                     <div class="advantages-item-count">01</div>
                     <div class="advantages-item-info">
-                        <h4 class="advantages-item-title">High Quality Hardware</h4>
+                        <h4 class="advantages-item-title">Vission</h4>
                         <div class="advantages-item-desc">
-                            <p>We use top-notch hardware to develop the most efficient apps for our customers</p>
+                            <q>We use top-notch hardware to develop the most efficient apps for our customers</q>
                         </div>
                     </div>
                 </div><!-- End choose us item -->
@@ -74,9 +79,9 @@
                 <div class="advantages-item">
                     <div class="advantages-item-count">02</div>
                     <div class="advantages-item-info">
-                        <h4 class="advantages-item-title">Dedicated 24\7 Support</h4>
+                        <h4 class="advantages-item-title">Mission</h4>
                         <div class="advantages-item-desc">
-                            <p>You can rely on our 24/7 tech support that will gladly solve any app issue you may have.</p>
+                            <q>You can rely on our 24/7 tech support that will gladly solve any app issue you may have.</q>
                         </div>
                     </div>
                 </div><!-- End choose us item -->
@@ -86,45 +91,9 @@
                 <div class="advantages-item">
                     <div class="advantages-item-count">03</div>
                     <div class="advantages-item-info">
-                        <h4 class="advantages-item-title">30-Day Money-back Guarantee</h4>
+                        <h4 class="advantages-item-title">Core Values</h4>
                         <div class="advantages-item-desc">
-                            <p>If you are not satisfied with our apps, we will return your money in the first 30 days.</p>
-                        </div>
-                    </div>
-                </div><!-- End choose us item -->
-            </div>
-            <div class="col-lg-4 col-md-6 col-12 item">
-                <!-- Begin choose us item -->
-                <div class="advantages-item">
-                    <div class="advantages-item-count">04</div>
-                    <div class="advantages-item-info">
-                        <h4 class="advantages-item-title">Agile and Fast Working Style</h4>
-                        <div class="advantages-item-desc">
-                            <p>This type of approach to our work helps our specialists to quickly develop better apps.</p>
-                        </div>
-                    </div>
-                </div><!-- End choose us item -->
-            </div>
-            <div class="col-lg-4 col-md-6 col-12 item">
-                <!-- Begin choose us item -->
-                <div class="advantages-item">
-                    <div class="advantages-item-count">05</div>
-                    <div class="advantages-item-info">
-                        <h4 class="advantages-item-title">Some Apps <br> are Free</h4>
-                        <div class="advantages-item-desc">
-                            <p>We also develop free apps that can be downloaded online without any payments.</p>
-                        </div>
-                    </div>
-                </div><!-- End choose us item -->
-            </div>
-            <div class="col-lg-4 col-md-6 col-12 item">
-                <!-- Begin choose us item -->
-                <div class="advantages-item">
-                    <div class="advantages-item-count">06</div>
-                    <div class="advantages-item-info">
-                        <h4 class="advantages-item-title">High Level of Usability</h4>
-                        <div class="advantages-item-desc">
-                            <p>All our products have high usability allowing users to easily operate the apps.</p>
+                            <q>If you are not satisfied with our apps, we will return your money in the first 30 days.</q>
                         </div>
                     </div>
                 </div><!-- End choose us item -->
