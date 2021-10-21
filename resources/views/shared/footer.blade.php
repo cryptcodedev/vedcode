@@ -63,11 +63,11 @@
                                 <h4 class="footer-item-title">What We Offer</h4>
                                 <nav class="footer-nav">
                                     <ul class="footer-mnu">
-                                        <li><a href="{{url('corporate-solution-service')}}" class="hover-link" data-title="Corporate Solution"><span>Corporate Solution</span></a></li>
+                                        <li><a href="{{url('IT-consulting-service')}}" class="hover-link" data-title="IT Consulting"><span>IT Consulting</span></a></li>
                                         <li><a href="{{url('call-center-solutions-service')}}" class="hover-link" data-title="Call Center"><span>Call Center</span></a></li>
                                         <li><a href="{{url('cloud-development-service')}}" class="hover-link" data-title="Cloud"><span>Cloud</span></a></li>
                                         <li><a href="{{url('IOS/MacOS-Apps-service')}}" class="hover-link" data-title="IOS/MacOS Apps"><span>IOS/MacOS Apps</span></a></li>
-                                        <li><a href="{{url('ux-design-service')}}" class="hover-link" data-title="UX And Design"><span>UX And Design</span></a></li>
+                                        <li><a href="{{url('data-analytics-service')}}" class="hover-link" data-title="Data Analytics"><span>Data Analytics</span></a></li>
                                     </ul>
                                 </nav>
                             </div>
