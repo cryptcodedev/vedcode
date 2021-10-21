@@ -15,7 +15,7 @@
 									<a href="{{url('services')}}">Services</a>
 									<i class="material-icons md-18">chevron_right</i>
 								</li>
-								<li><a href="single-services.html#!">Corporate Solutions</a></li>
+								<li><a href="single-services.html#!">IT Consulting</a></li>
 							</ul>
 						</div>
 					</div>
@@ -28,20 +28,21 @@
 					<div class="row">
 						<div class="col-12">
 							<div class="section-heading heading-center">
-								<h1>Corporate Solutions</h1>
+								<h1>IT Consulting</h1>
 							</div>
 							<div class="content">
 								<div class="img-style">
 									<img src="assets/img/subheader-corporate.png" alt="">
 								</div>
-								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque velit nisi, pretium ut lacinia in, elementum id enim. Curabitur aliquet quam id dui posuere blandit. Vivamus suscipit tortor eget felis porttitor volutpat. Curabitur non nulla sit amet nisl tempus convallis quis ac lectus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque velit nisi, pretium ut lacinia in, elementum id enim. Curabitur aliquet quam id dui posuere blandit. Vivamus suscipit tortor eget felis porttitor volutpat.</p>
-								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque velit nisi, pretium ut lacinia in, elementum id enim. Curabitur aliquet quam id dui posuere blandit. Vivamus suscipit tortor eget felis porttitor volutpat. Curabitur non nulla sit amet nisl tempus convallis quis ac lectus.</p>
+								<p>Information technology (IT) consulting services allow companies to implement IT strategies and solutions to achieve business-IT alignment, and drive max value from the current IT initiatives. Your business goals shape the project scope – we may focus our entire attention on the advisory stage if you need to work through IT challenges and lay down the strategy for positive IT transformation. Also, we provide a full-service package of assistance for IT projects – we plan, design, implement and continuously support technology-powered solutions.</p>
 								<h5>Key Features</h5>
 								<ul>
-									<li>High usability</li>
-									<li>Improved performance</li>
-									<li>Customizable interface</li>
-									<li>Crossplatform support</li>
+									<li>IT advisory</li>
+									<li>IT solution implementation</li>
+									<li>IT modernization</li>
+									<li>Infrastructure management</li>
+									<li>Managed IT services</li>
+									<li>Cloud consulting</li>
 								</ul>
 							</div>
 						</div>
@@ -69,23 +70,28 @@
 									<ul class="pricing-item-list">
 										<li class="active">
 											<i class="material-icons md-24">check</i>
-											Concept development
+											IT advisory
 										</li>
 										<li class="active">
 											<i class="material-icons md-24">check</i>
-											UI/UX design
+											IT solution implementation
 										</li>
 										<li>
 											<i class="material-icons md-24">check</i>
-											Configuration management
+											IT modernization
 										</li>
 										<li>
 											<i class="material-icons md-24">check</i>
-											Software quality assurance
+											Infrastructure management
 										</li>
 										<li>
 											<i class="material-icons md-24">check</i>
-											App integration
+											Managed IT services
+                                        </li>
+
+										<li>
+											<i class="material-icons md-24">check</i>
+											Cloud consulting
 										</li>
 									</ul>
 								</div>
@@ -109,23 +115,28 @@
 									<ul class="pricing-item-list">
 										<li class="active">
 											<i class="material-icons md-24">check</i>
-											Concept development
+											IT advisory
 										</li>
 										<li class="active">
 											<i class="material-icons md-24">check</i>
-											UI/UX design
+											IT solution implementation
 										</li>
 										<li class="active">
 											<i class="material-icons md-24">check</i>
-											Configuration management
+											IT modernization
 										</li>
 										<li>
 											<i class="material-icons md-24">check</i>
-											Software quality assurance
+											Infrastructure management
 										</li>
 										<li>
 											<i class="material-icons md-24">check</i>
-											App integration
+											Managed IT services
+                                        </li>
+
+										<li>
+											<i class="material-icons md-24">check</i>
+											Cloud consulting
 										</li>
 									</ul>
 								</div>
@@ -148,23 +159,28 @@
 									<ul class="pricing-item-list">
 										<li class="active">
 											<i class="material-icons md-24">check</i>
-											Concept development
+											IT advisory
 										</li>
 										<li class="active">
 											<i class="material-icons md-24">check</i>
-											UI/UX design
+											IT solution implementation
 										</li>
 										<li class="active">
 											<i class="material-icons md-24">check</i>
-											Configuration management
+											IT modernization
 										</li>
 										<li class="active">
 											<i class="material-icons md-24">check</i>
-											Software quality assurance
+											Infrastructure management
 										</li>
 										<li class="active">
 											<i class="material-icons md-24">check</i>
-											App integration
+											Managed IT services
+                                        </li>
+
+										<li class="active">
+											<i class="material-icons md-24">check</i>
+											Cloud consulting
 										</li>
 									</ul>
 								</div>
@@ -179,148 +195,5 @@
 					</div>
 				</div>
 			</section><!-- End Pricing -->
-
-			<section class="section">
-				<div class="container">
-					<div class="row">
-						<div class="col-12">
-							<div class="section-heading heading-center">
-								<h1>All Services</h1>
-							</div>
-						</div>
-						<div class="col-lg-4 col-md-6 col-12 item">
-							<!-- Begin services item -->
-							<div class="services-image-item">
-								<div class="services-image-item-card services-image-item-card-front">
-									<img data-src="assets/img/services-img-1.jpg" class="lazy" src="data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" alt="">
-								</div>
-								<div class="services-image-item-card services-image-item-card-back">
-									<div class="services-image-item-card-center">
-										<h5 class="services-image-item-title">Corporate Solution</h5>
-										<p class="services-image-item-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla expedita velit omnis quas officia dolore repudiandae? Dolorum, sed dolor? Incidunt, dolor.</p>
-										<div class="wrapp-btn-circl-arrow justify-content-center">
-											<a href="{{url('corporate-solution-service')}}" class="btn-circl-arrow btn-circl-arrow-white">
-												<span class="btn-circl-arrow-text">Go to service</span>
-												<svg viewBox="0 0 13 9" width="13" height="9" width="13px" height="9px">
-													<use xlink:href="assets/img/sprite.svg#arrow-right"></use>
-												</svg>
-											</a>
-										</div>
-									</div>
-								</div>
-							</div><!-- End services item -->
-						</div>
-						<div class="col-lg-4 col-md-6 col-12 item">
-							<!-- Begin services item -->
-							<div class="services-image-item">
-								<div class="services-image-item-card services-image-item-card-front">
-									<img data-src="assets/img/services-img-2.jpg" class="lazy" src="data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" alt="">
-								</div>
-								<div class="services-image-item-card services-image-item-card-back">
-									<div class="services-image-item-card-center">
-										<h5 class="services-image-item-title">Call Center Solutions</h5>
-										<p class="services-image-item-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla expedita velit omnis quas officia dolore repudiandae? Dolorum, sed dolor? Incidunt, dolor.</p>
-										<div class="wrapp-btn-circl-arrow justify-content-center">
-											<a href="{{url('call-center-solutions-service')}}" class="btn-circl-arrow btn-circl-arrow-white">
-												<span class="btn-circl-arrow-text">Go to service</span>
-												<svg viewBox="0 0 13 9" width="13" height="9" width="13px" height="9px">
-													<use xlink:href="assets/img/sprite.svg#arrow-right"></use>
-												</svg>
-											</a>
-										</div>
-									</div>
-								</div>
-							</div><!-- End services item -->
-						</div>
-						<div class="col-lg-4 col-md-6 col-12 item">
-							<!-- Begin services item -->
-							<div class="services-image-item">
-								<div class="services-image-item-card services-image-item-card-front">
-									<img data-src="assets/img/services-img-3.jpg" class="lazy" src="data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" alt="">
-								</div>
-								<div class="services-image-item-card services-image-item-card-back">
-									<div class="services-image-item-card-center">
-										<h5 class="services-image-item-title">Cloud Development</h5>
-										<p class="services-image-item-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla expedita velit omnis quas officia dolore repudiandae? Dolorum, sed dolor? Incidunt, dolor.</p>
-										<div class="wrapp-btn-circl-arrow justify-content-center">
-											<a href="{{url('cloud-development-service')}}" class="btn-circl-arrow btn-circl-arrow-white">
-												<span class="btn-circl-arrow-text">Go to service</span>
-												<svg viewBox="0 0 13 9" width="13" height="9" width="13px" height="9px">
-													<use xlink:href="assets/img/sprite.svg#arrow-right"></use>
-												</svg>
-											</a>
-										</div>
-									</div>
-								</div>
-							</div><!-- End services item -->
-						</div>
-						<div class="col-lg-4 col-md-6 col-12 item">
-							<!-- Begin services item -->
-							<div class="services-image-item">
-								<div class="services-image-item-card services-image-item-card-front">
-									<img data-src="assets/img/services-img-4.jpg" class="lazy" src="data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" alt="">
-								</div>
-								<div class="services-image-item-card services-image-item-card-back">
-									<div class="services-image-item-card-center">
-										<h5 class="services-image-item-title">IOS/MacOS Apps</h5>
-										<p class="services-image-item-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla expedita velit omnis quas officia dolore repudiandae? Dolorum, sed dolor? Incidunt, dolor.</p>
-										<div class="wrapp-btn-circl-arrow justify-content-center">
-											<a href="{{url('IOS/MacOS-Apps-service')}}" class="btn-circl-arrow btn-circl-arrow-white">
-												<span class="btn-circl-arrow-text">Go to service</span>
-												<svg viewBox="0 0 13 9" width="13" height="9" width="13px" height="9px">
-													<use xlink:href="assets/img/sprite.svg#arrow-right"></use>
-												</svg>
-											</a>
-										</div>
-									</div>
-								</div>
-							</div><!-- End services item -->
-						</div>
-						<div class="col-lg-4 col-md-6 col-12 item">
-							<!-- Begin services item -->
-							<div class="services-image-item">
-								<div class="services-image-item-card services-image-item-card-front">
-									<img data-src="assets/img/services-img-5.jpg" class="lazy" src="data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" alt="">
-								</div>
-								<div class="services-image-item-card services-image-item-card-back">
-									<div class="services-image-item-card-center">
-										<h5 class="services-image-item-title">Android Applications</h5>
-										<p class="services-image-item-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla expedita velit omnis quas officia dolore repudiandae? Dolorum, sed dolor? Incidunt, dolor.</p>
-										<div class="wrapp-btn-circl-arrow justify-content-center">
-											<a href="{{url('android-applications-service')}}" class="btn-circl-arrow btn-circl-arrow-white">
-												<span class="btn-circl-arrow-text">Go to service</span>
-												<svg viewBox="0 0 13 9" width="13" height="9" width="13px" height="9px">
-													<use xlink:href="assets/img/sprite.svg#arrow-right"></use>
-												</svg>
-											</a>
-										</div>
-									</div>
-								</div>
-							</div><!-- End services item -->
-						</div>
-						<div class="col-lg-4 col-md-6 col-12 item">
-							<!-- Begin services item -->
-							<div class="services-image-item">
-								<div class="services-image-item-card services-image-item-card-front">
-									<img data-src="assets/img/services-img-6.jpg" class="lazy" src="data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" alt="">
-								</div>
-								<div class="services-image-item-card services-image-item-card-back">
-									<div class="services-image-item-card-center">
-										<h5 class="services-image-item-title">UX And Design</h5>
-										<p class="services-image-item-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla expedita velit omnis quas officia dolore repudiandae? Dolorum, sed dolor? Incidunt, dolor.</p>
-										<div class="wrapp-btn-circl-arrow justify-content-center">
-											<a href="{{url('ux-design-service')}}" class="btn-circl-arrow btn-circl-arrow-white">
-												<span class="btn-circl-arrow-text">Go to service</span>
-												<svg viewBox="0 0 13 9" width="13" height="9" width="13px" height="9px">
-													<use xlink:href="assets/img/sprite.svg#arrow-right"></use>
-												</svg>
-											</a>
-										</div>
-									</div>
-								</div>
-							</div><!-- End services item -->
-						</div>
-					</div>
-				</div>
-			</section>
+			@include('shared.allservices')
             @endsection

@@ -128,15 +128,15 @@
             </div>
             <div class="col-lg-4 col-md-6 col-12 item">
                 <!-- Begin services item -->
-                <a href="{{url('corporate-solution-service')}}" class="services-item item-style">
+                <a href="{{url('IT-consulting-service')}}" class="services-item item-style">
                     <div class="services-item-ico">
                         <i class="material-icons material-icons-outlined md-48">settings</i>
                     </div>
                     <div class="services-item-ico-bg">
                         <i class="material-icons material-icons-outlined">settings</i>
                     </div>
-                    <h4 class="services-item-title">Corporate Solution</h4>
-                    <div class="services-item-desc">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</div>
+                    <h4 class="services-item-title">IT Consulting</h4>
+                    <div class="services-item-desc">Information technology (IT) consulting services allow companies to implement IT strategies and solutions to achieve business-IT alignment..</div>
                 </a><!-- End services item -->
             </div>
             <div class="col-lg-4 col-md-6 col-12 item">
@@ -149,7 +149,7 @@
                         <i class="material-icons material-icons-outlined">perm_phone_msg</i>
                     </div>
                     <h4 class="services-item-title">Call Center Solutions</h4>
-                    <div class="services-item-desc">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it.</div>
+                    <div class="services-item-desc">IT support equipment such as printers, scanners, servers etc. are present in every office. From everyday support to taking care of complex tasks..</div>
                 </a><!-- End services item -->
             </div>
             <div class="col-lg-4 col-md-12 col-12 item">
@@ -162,7 +162,7 @@
                         <i class="material-icons material-icons-outlined">cloud_download</i>
                     </div>
                     <h4 class="services-item-title">Cloud Development</h4>
-                    <div class="services-item-desc">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words.</div>
+                    <div class="services-item-desc"> <q style="font-style: oblique;font-weight:600">Vedcode Technologies</q> covers the entire spectrum of cloud development capabilities, helping our clients create a holistic strategy..</div>
                 </a><!-- End services item -->
             </div>
             <div class="col-12">

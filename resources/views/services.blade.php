@@ -30,16 +30,15 @@
             </div>
             <div class="col-lg-4 col-md-6 col-12 item">
                 <!-- Begin services item -->
-                <a href="{{url('corporate-solution-service')}}" class="services-item item-style">
+                <a href="{{url('IT-consulting-service')}}" class="services-item item-style">
                     <div class="services-item-ico">
                         <i class="material-icons material-icons-outlined md-48">settings</i>
                     </div>
                     <div class="services-item-ico-bg">
                         <i class="material-icons material-icons-outlined">settings</i>
                     </div>
-                    <h4 class="services-item-title">Corporate Solution</h4>
-                    <div class="services-item-desc">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots
-                        in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</div>
+                    <h4 class="services-item-title">IT Consulting</h4>
+                    <div class="services-item-desc">Information technology (IT) consulting services allow companies to implement IT strategies and solutions to achieve business-IT alignment..</div>
                 </a><!-- End services item -->
             </div>
             <div class="col-lg-4 col-md-6 col-12 item">
@@ -52,8 +51,7 @@
                         <i class="material-icons material-icons-outlined">perm_phone_msg</i>
                     </div>
                     <h4 class="services-item-title">Call Center Solutions</h4>
-                    <div class="services-item-desc">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots
-                        in a piece of classical Latin literature from 45 BC, making it.</div>
+                    <div class="services-item-desc">IT support equipment such as printers, scanners, servers etc. are present in every office. From everyday support to taking care of complex tasks..</div>
                 </a><!-- End services item -->
             </div>
             <div class="col-lg-4 col-md-12 col-12 item">
@@ -66,8 +64,7 @@
                         <i class="material-icons material-icons-outlined">cloud_download</i>
                     </div>
                     <h4 class="services-item-title">Cloud Development</h4>
-                    <div class="services-item-desc">There are many variations of passages of Lorem Ipsum available, but the majority
-                        have suffered alteration in some form, by injected humour, or randomised word.</div>
+                    <div class="services-item-desc"><q style="font-style: oblique;font-weight:600">Vedcode Technologies</q> covers the entire spectrum of cloud development capabilities, helping our clients create a holistic strategy..</div>
                 </a><!-- End services item -->
             </div>
             <div class="col-lg-4 col-md-6 col-12 item">
@@ -80,7 +77,7 @@
                         <i class="material-icons material-icons-outlined">laptop_mac</i>
                     </div>
                     <h4 class="services-item-title">IOS/MacOS Apps</h4>
-                    <div class="services-item-desc">Donec rutrum congue leo eget malesuada. Cras ultricies ligula sed magna dictum porta. Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem.</div>
+                    <div class="services-item-desc">With a great deal of experience, our iOS app developers take advantage of such programming languages as Swift, Objective-C..</div>
                 </a><!-- End services item -->
             </div>
             <div class="col-lg-4 col-md-6 col-12 item">
@@ -93,20 +90,20 @@
                         <i class="material-icons material-icons-outlined">phone_android</i>
                     </div>
                     <h4 class="services-item-title">Android Applications</h4>
-                    <div class="services-item-desc">Cras ultricies ligula sed magna dictum porta. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus. Curabitur aliquet quam id dui posuere blandit.</div>
+                    <div class="services-item-desc">We explore the market and  deep dive into your business to understand your needs and help you unlock the full potential with a top-notch..</div>
                 </a><!-- End services item -->
             </div>
             <div class="col-lg-4 col-md-12 col-12 item">
                 <!-- Begin services item -->
-                <a href="{{url('ux-design-service')}}" class="services-item item-style">
+                <a href="{{url('data-analytics-service')}}" class="services-item item-style">
                     <div class="services-item-ico">
                         <i class="material-icons material-icons-outlined md-48">tv</i>
                     </div>
                     <div class="services-item-ico-bg">
                         <i class="material-icons material-icons-outlined">tv</i>
                     </div>
-                    <h4 class="services-item-title">UX And Design</h4>
-                    <div class="services-item-desc">Cras ultricies ligula sed magna dictum porta. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque in ipsum id orci porta dapibus. Proin eget tortor risus.</div>
+                    <h4 class="services-item-title">Data Analytics</h4>
+                    <div class="services-item-desc">Data analytics is used to extract actionable insights from business data for quick and informed decision-making..</div>
                 </a><!-- End services item -->
             </div>
         </div>

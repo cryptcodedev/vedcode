@@ -1,3 +1,8 @@
+<style>
+    .footer-company-top img{
+        align-items: center;
+    }
+</style>
 <!-- Begin footer -->
 <footer class="footer" style="background: linear-gradient(0deg, rgb(1, 16, 33, 0.965) 90%, rgb(0, 0, 0, 0.34) 100%);">
             <div class="footer-main">
@@ -7,9 +12,11 @@
                             <!-- Begin company info -->
                             <div class="footer-company-info">
                                 <div class="footer-company-top">
-                                    <a href="{{url('/')}}" class="logo logo-ico-widht-text" title="PathSoft">
-                                        <img class="lazy logo-ico" data-src="assets/img/logo-ico.png" width="36" height="35" src="data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" alt="">
+                                     <div class="col-md-12">
+                                     <a href="{{url('/')}}" class="logo logo-ico-widht-text" title="Vedcode">
+                                    <img class="lazy logo-ico" src="{{asset('assets/img/Logo2.png')}}"  alt="">
                                     </a>
+                                     </div>
                                     <div class="footer-company-desc">
                                         <p>Our company has been developing high-quality and reliable software for corporate needs since 2008. We are renowned professionals of software development.</p>
                                     </div>
